@@ -72,6 +72,7 @@ form {
     width: 10em;
     font-size: 1em;
     border-radius: 5px;
+    border: 1px solid orange;
 }
 
 #submit:hover {
@@ -117,27 +118,51 @@ form {
 }
 
 #pricing {
-    border: 3px solid blue;
     display: flex;
     justify-content: space-between;
-    margin-top: 5em;
+    /* margin-top: 5em; */
+    margin: 5em 20%;
+    
 }
 
 .price {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 30%;
+  border-radius: 0.5rem;
+  height: auto;
 }
 
-h3 {
+.price-title {
+    text-align: center;
     background-color: #dddddd;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    border-radius: 7px;
 }
 
 li {
     list-style: none;
+    margin-top: 0.3em;
+}
+
+.button {
+    padding: 1em;
+    background-color: orange;
+    border: 1px solid orange;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.price span {
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    font-weight: bold;
 }
 
 
