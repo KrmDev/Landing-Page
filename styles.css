@@ -109,5 +109,36 @@ form {
     padding: 3.1em;
 }
 
+#div-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+#pricing {
+    border: 3px solid blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+
+.price {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 5px;
+}
+
+h3 {
+    background-color: #dddddd;
+}
+
+li {
+    list-style: none;
+}
+
 
 
