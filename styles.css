@@ -203,7 +203,7 @@ footer span {
     padding: 0 0.5em;
 }
 
-@media all and (max-width: 1550px) {
+@media screen and (max-width: 1550px) {
     #pricing {
         display: flex;
         justify-content: space-between;
@@ -211,7 +211,7 @@ footer span {
     }
 }
 
-@media all and (max-width: 1335px) {
+@media screen and (max-width: 1335px) {
     #pricing {
         display: flex;
         justify-content: space-between;
@@ -219,9 +219,9 @@ footer span {
     }
 }
 
-@media all and (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
 
-    video {
+    #video {
         width: 90%;
     }
 
@@ -260,7 +260,7 @@ footer span {
     }
 }
 
-@media all and (max-width: 610px and min-width: 500px) {
+@media screen and (max-width: 610px and min-width: 550px) {
 
     #header-logo span {
         margin-left: 0;
