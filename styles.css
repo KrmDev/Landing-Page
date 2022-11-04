@@ -16,9 +16,11 @@ body {
 
 header {
     margin: 1em 5em 7em 5em;
-    /* border: 3px solid green; */
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #eee;
 }
 
 #header-logo {
@@ -120,7 +122,6 @@ form {
 #pricing {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 5em; */
     margin: 5em 20%;
     
 }
@@ -202,5 +203,83 @@ footer span {
     padding: 0 0.5em;
 }
 
+@media all and (max-width: 1550px) {
+    #pricing {
+        display: flex;
+        justify-content: space-between;
+        margin: 5em 15%;
+    }
+}
+
+@media all and (max-width: 1335px) {
+    #pricing {
+        display: flex;
+        justify-content: space-between;
+        margin: 5em 10%;
+    }
+}
+
+@media all and (max-width: 1050px) {
+
+    video {
+        width: 90%;
+    }
+
+    header {
+        margin: 1em 0em 7em 0em;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        background-color: #eee;
+    }
+    
+    #header-logo {
+        display: flex;
+        align-items: center;
+        width: 40%;
+    }
+    
+    #header-logo span {
+        margin-left: 1em;
+        font-size: 1.5em;
+    }
+    
+    #nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 60%; 
+        font-size: 1em;
+    }
+
+    #pricing {
+        display: flex;
+        justify-content: space-between;
+        margin: 5em 5%;
+    }
+}
+
+@media all and (max-width: 610px and min-width: 500px) {
+
+    #header-logo span {
+        margin-left: 0;
+        font-size: 1.4em;
+    }
+
+    #pricing {
+        display: flex;
+        justify-content: space-between;
+        margin: 5em 2%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    #nav-bar {
+        font-size: 0.8em;
+    }
+}
 
 
